@@ -1,0 +1,236 @@
+## i3 config file (v4) ##
+#########################
+
+#gaps inner 15
+#gaps outer 10
+
+exec xcompmgr 
+exec feh --bg-fill /home/marcospb19/Pictures/summer_grass_close_up-wallpaper-1366x768.jpg
+exec setxkbmap br abnt2
+exec pulseaudio
+
+# Assignment to a named workspace
+assign [class="^Telegram"] 2
+
+# exec_always pkill redshift ; redshift -r -t 5000:2900 
+
+set $Super Mod4
+set $Alt Mod1
+set $Enter Return
+
+font pango: Noto Mono 0
+
+# Hide borders
+hide_edge_borders true
+# smart_borders true
+
+# Use Mouse+$Super to drag floating windows to their wanted position
+floating_modifier $Super
+
+# start a terminal
+bindsym $Super+Return exec termite
+
+# kill focused window
+bindsym $Super+q kill
+bindsym $Super+Shift+q kill
+bindsym $Alt+F4 kill
+
+# dmenu launcher
+# -nb --> Normal background
+# -nf --> Normal foreground
+# -sb --> Selected background
+# -sf --> Selected foreground
+
+## Light theme ↓
+#bindsym $Super+D exec dmenu_run \
+#	-fn Noto  \
+#	-l 10 \
+#	-nb \#fff \
+#	-nf \#000 \
+#	-sb \#aaa \
+#	-sf \#200
+
+## Dark theme ↓
+bindsym $Super+D exec dmenu_run \
+	-fn Noto  \
+	-l 15 \
+	-nb \#000 \
+	-nf \#aaa \
+	-sb \#585 \
+	-sf \#fff
+
+
+# There also is the (new) i3-dmenu-desktop which only displays applications
+# shipping a .desktop file. It is a wrapper around dmenu, so you need that
+# installed.
+# bindsym $Super+d exec --no-startup-id i3-dmenu-desktop
+
+# Alt+Tab and Alt+Shift+Tab
+bindsym $Alt+Tab focus right
+bindsym $Alt+Shift+Tab focus left
+
+# alternatively, you can use the cursor keys:
+bindsym $Super+Left focus left
+bindsym $Super+Right focus right
+bindsym $Super+Up focus up
+bindsym $Super+Down focus down
+
+# alternatively, you can use the cursor keys:
+bindsym $Super+Shift+Left move left
+bindsym $Super+Shift+Right move right
+bindsym $Super+Shift+Up move up
+bindsym $Super+Shift+Down move down
+
+# split in horizontal orientation
+bindsym $Super+h split h
+# split in vertical orientation
+bindsym $Super+v split v
+
+# enter fullscreen mode for the focused container
+bindsym $Super+f fullscreen toggle
+
+# change container layout (stacked, tabbed, toggle split)
+bindsym $Super+s layout stacking
+bindsym $Super+w layout tabbed
+bindsym $Super+e layout toggle split
+
+# toggle tiling / floating
+bindsym $Super+Shift+space floating toggle
+
+# change focus between tiling / floating windows
+bindsym $Super+space focus mode_toggle
+
+# focus the parent container
+#bindsym $Super+a focus parent
+# focus the child container
+#bindsym $Super+d focus child
+
+# switch to workspace
+bindsym $Super+1 workspace 1
+bindsym $Super+2 workspace 2
+bindsym $Super+3 workspace 3
+bindsym $Super+4 workspace 4
+bindsym $Super+5 workspace 5
+bindsym $Super+6 workspace 6
+bindsym $Super+7 workspace 7
+bindsym $Super+8 workspace 8
+bindsym $Super+9 workspace 9
+bindsym $Super+0 workspace 10
+
+# move focused container to workspace
+bindsym $Super+Shift+1 move container to workspace 1
+bindsym $Super+Shift+2 move container to workspace 2
+bindsym $Super+Shift+3 move container to workspace 3
+bindsym $Super+Shift+4 move container to workspace 4
+bindsym $Super+Shift+5 move container to workspace 5
+bindsym $Super+Shift+6 move container to workspace 6
+bindsym $Super+Shift+7 move container to workspace 7
+bindsym $Super+Shift+8 move container to workspace 8
+bindsym $Super+Shift+9 move container to workspace 9
+bindsym $Super+Shift+0 move container to workspace 10
+
+# reload the configuration file
+bindsym $Super+Shift+c reload
+# restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
+bindsym $Super+Shift+r restart
+# exit i3 (logs you out of your X session)
+bindsym $Super+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
+
+bindsym $Super+r mode "resize"
+mode "resize"
+{
+	# same bindings, but for the arrow keys
+	bindsym Left resize shrink width 4 px or 4 ppt
+	bindsym Right resize grow width 4 px or 4 ppt
+	bindsym Up resize shrink height 4 px or 4 ppt
+	bindsym Down resize grow height 4 px or 4 ppt
+
+	# back to normal: Enter or Escape
+	bindsym Return mode "default"
+}
+
+
+
+# i3 lime theme
+# class                 border  backgr. text    indicator
+client.focused          #4E9C00 #4E9C00 #FFFFFF #FFFFFF
+client.focused_inactive #1B3600 #1B3600 #888888 #FFFFFF
+client.unfocused        #333333 #333333 #888888 #FFFFFF
+client.urgent           #C20000 #C20000 #FFFFFF #FFFFFF
+
+bar
+{
+	font pango: Noto Mono 8
+	status_command i3status
+
+	# $i3-theme-bar
+	colors
+	{
+		separator  #888888
+		background #333333
+		statusline #FFFFFF
+		focused_workspace  #4E9C00 #4E9C00 #FFFFFF
+		active_workspace   #333333 #333333 #FFFFFF
+		inactive_workspace #333333 #333333 #888888
+		urgent_workspace   #C20000 #C20000 #FFFFFF
+	}
+}
+
+# # # # # # # # # # 
+# <end>
+# assign
+# bar
+# bind
+# bindcode
+# bindsym
+# client.background
+# client.focused
+# client.focused_inactive
+# client.placeholder
+# client.unfocused
+# client.urgent
+# default_border
+# default_floating_border
+# default_orientation
+# disable-randr15
+# disable_randr15
+# exec
+# exec_always
+# fake-outputs
+# fake_outputs
+# floating_maximum_size
+# floating_minimum_size
+# floating_modifier
+# focus_follows_mouse
+# focus_on_window_activation
+# focus_wrapping
+# font
+# for_window
+# force-xinerama
+# force_display_urgency_hint
+# force_focus_wrapping
+# force_xinerama
+# gaps
+# hide_edge_borders
+# ipc-socket
+# ipc_kill_timeout
+# ipc_socket
+# mode
+# mouse_warping
+# new_float
+# new_window
+# no_focus
+# popup_during_fullscreen
+# restart_state
+# set  
+# set_from_resource
+# show_marks
+# smart_borders
+# smart_gaps
+# title_align
+# workspace
+# workspace_auto_back_and_forth
+# workspace_layout
+# # # # # # # # # #
+
+exec /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1

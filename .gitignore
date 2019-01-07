@@ -1,11 +1,21 @@
-# ignore everything on my home folder
+# This file is so bad
+
+# Ignore everything on my home folder
 *
 
-# excepc for:
+# Except for:
+!.config
+
+!.config/i3
 !.config/i3/config
+
+!.config/i3status
 !.config/i3status/config
+
+!.config/termite
 !.config/termite/config
 
+# Bash
 !.bashrc
 !.bash_aliases
 !.bash_functions

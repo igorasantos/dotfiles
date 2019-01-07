@@ -1,0 +1,14 @@
+# ignore everything on my home folder
+*
+
+# excepc for:
+!.config/i3/config
+!.config/i3status/config
+!.config/termite/config
+
+!.bashrc
+!.bash_aliases
+!.bash_functions
+
+# Don't ignore itself!
+!.gitignore

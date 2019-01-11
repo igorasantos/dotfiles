@@ -46,7 +46,7 @@ bindsym $Super+x [urgent=latest] focus
 set $Super Mod4
 set $Alt Mod1
 set $Enter Return
-font pango: Noto Mono 10
+font pango: Noto Mono 0
 
 # Hide borders
 hide_edge_borders true

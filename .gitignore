@@ -3,22 +3,57 @@
 # Ignore everything on my home folder
 *
 
-# Except for:
+## Except for:
+# configs
 !.config
-
+!.config/caja
+!.config/caja/*
 !.config/i3
 !.config/i3/config
-
 !.config/i3status
 !.config/i3status/config
-
+!.config/inkscape
+!.config/inkscape/preferences.xml
+!.config/nemo
+!.config/nemo/*
+!.config/sublime-text-3
+!.config/sublime-text-3/Packages
+!.config/sublime-text-3/Packages/User
+!.config/sublime-text-3/Packages/User/Preferences.sublime-settings
 !.config/termite
 !.config/termite/config
+!.config/digikamrc
+!.config/mimeapps.list
+!.config/user-dirs.dirs
+
+# cinnamon
+!.cinnamon
+!.cinnamon/backgrounds/
+!.cinnamon/backgrounds/*
+!.cinnamon/configs
+!.cinnamon/configs/calendar@cinnamon.org
+!.cinnamon/configs/calendar@cinnamon.org/*
+!.cinnamon/configs/grouped-window-list@cinnamon.org
+!.cinnamon/configs/grouped-window-list@cinnamon.org/*
+!.cinnamon/configs/menu@cinnamon.org
+!.cinnamon/configs/menu@cinnamon.org/*
+!.cinnamon/configs/notifications@cinnamon.org
+!.cinnamon/configs/notifications@cinnamon.org/*
+!.cinnamon/configs/user@cinnamon.org
+!.cinnamon/configs/user@cinnamon.org/*
+
+# icons
+!.icons
+!.icons/default
+!.icons/default/index.theme
 
 # Bash
 !.bashrc
 !.bash_aliases
 !.bash_functions
+
+# others at home
+!.fehbg
 
 # Don't ignore itself!
 !.gitignore

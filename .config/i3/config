@@ -8,6 +8,7 @@ exec xcompmgr
 exec feh --bg-fill /usr/share/backgrounds/linuxmint-tara/msager_breathtaking_place.jpg
 exec setxkbmap br abnt2
 exec pulseaudio
+exec dropbox start
 
 # Assignment to a named workspace
 assign [class="^Termite"] 1
@@ -17,6 +18,7 @@ assign [title="terminal$"] 1
 assign [class="monitor$"] 1
 assign [class="Nemo"] 2
 assign [class="^VirtualBox"] 2
+assign [class="disks$"] 2
 assign [class="^Telegram"] 3
 assign [class="^Chromium"] 4
 assign [class="Firefox"] 4
@@ -42,11 +44,24 @@ assign [title="Calculator"] 10
 bindsym $Super+x [urgent=latest] focus
 	
 # exec_always pkill redshift ; redshift -r -t 5000:2900 
-
 set $Super Mod4
 set $Alt Mod1
+set $Ctrl Mod3
 set $Enter Return
 font pango: Noto Mono 0
+
+# trying: https://github.com/i3/i3/issues/2558
+# Numpad sets
+# set $KP_1 87
+# set $KP_2 88
+# set $KP_3 89
+# set $KP_4 83
+# set $KP_5 84
+# set $KP_6 85
+# set $KP_7 79
+# set $KP_8 80
+# set $KP_9 81
+# set $KP_0 90
 
 # Hide borders
 hide_edge_borders true
@@ -135,7 +150,7 @@ bindsym $Super+a focus parent
 # focus the child container
 #bindsym $Super+d focus child
 
-# switch to workspace
+# switch to workspace - normal number keys
 bindsym $Super+1 workspace 1
 bindsym $Super+2 workspace 2
 bindsym $Super+3 workspace 3
@@ -146,6 +161,18 @@ bindsym $Super+7 workspace 7
 bindsym $Super+8 workspace 8
 bindsym $Super+9 workspace 9
 bindsym $Super+0 workspace 10
+
+# switch to workspace - numpad keys
+# bindcode $Super+$KP_1 workspace 1
+# bindcode $Super+$KP_2 workspace 2
+# bindcode $Super+$KP_3 workspace 3
+# bindcode $Super+$KP_4 workspace 4
+# bindcode $Super+$KP_5 workspace 5
+# bindcode $Super+$KP_6 workspace 6
+# bindcode $Super+$KP_7 workspace 7
+# bindcode $Super+$KP_8 workspace 8
+# bindcode $Super+$KP_9 workspace 9
+# bindcode $Super+$KP_0 workspace 10
 
 # move focused container to workspace
 bindsym $Super+Shift+1 move container to workspace 1
@@ -168,6 +195,10 @@ bindsym $Super+Shift+r restart
 # exit i3 (logs you out of your X session)
 bindsym $Super+Shift+e exec "i3-nagbar -t warning -m 'You pressed the exit shortcut. Do you really want to exit i3? This will end your X session.' -b 'Yes, exit i3' 'i3-msg exit'"
 
+# lock i3 session - check http://web.archive.org/web/20180415214238/http://plankenau.com/blog/post/gaussianlock
+bindsym $Super+Shift+l exec "/bin/lock"
+
+# resize containers mode
 bindsym $Super+r mode "resize"
 
 mode "resize"

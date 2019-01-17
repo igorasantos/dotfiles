@@ -126,3 +126,6 @@ bind -x '"\C-j": clear && clear && la'
 
 export PATH=/sbin/:$PATH
 # set +x
+
+# Autolock with i3lock - "Gaussian Blur Lock Screen": http://plankenau.com/blog/post/gaussianlock
+xautolock -time 10 -locker lock

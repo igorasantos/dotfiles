@@ -335,8 +335,8 @@
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
        selcue="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -412,7 +412,7 @@
        id="connector"
        style="fill:none;fill-rule:evenodd;stroke:black;stroke-opacity:1;stroke-linejoin:miter;stroke-width:1px;stroke-linecap:butt;"
        selcue="1"
-       curvature="3"
+       curvature="0"
        length="100" />
     <eventcontext
        id="paintbucket"
@@ -422,11 +422,11 @@
        offset="0"
        offsetunits="mm" />
     <group
-       offset="5"
-       scale="100"
-       precision="2"
+       id="measure"
        fontsize="10"
-       id="measure" />
+       precision="2"
+       scale="100"
+       offset="5" />
   </group>
   <group
      id="palette">
@@ -575,7 +575,19 @@
     <group
        id="align" />
     <group
-       id="xml" />
+       id="xml"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="341"
+       h="266"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="find" />
     <group
@@ -652,12 +664,35 @@
        id="treeeditor" />
     <group
        id="layers"
-       maxDepth="20" />
+       maxDepth="20"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="928"
+       y="94"
+       w="343"
+       h="489"
+       visible="1"
+       state="1"
+       placement="1" />
     <group
        id="extensioneditor" />
     <group
        id="trace"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="407"
+       y="187"
+       w="548"
+       h="364"
+       visible="0"
+       placement="1" />
     <group
        id="script" />
     <group
@@ -960,7 +995,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25">
+     style="line-height:1.25;fill:#ffaaaa">
     <group
        width="1366"
        height="741"
@@ -968,7 +1003,7 @@
        y="6"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group

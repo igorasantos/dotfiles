@@ -5,7 +5,7 @@
 #gaps outer 10
 
 exec xcompmgr 
-exec feh --bg-fill /usr/share/backgrounds/linuxmint-tara/msager_breathtaking_place.jpg
+exec ./.fehbg
 exec setxkbmap br abnt2
 exec pulseaudio
 exec dropbox start

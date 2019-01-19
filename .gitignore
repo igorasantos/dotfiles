@@ -25,6 +25,9 @@
 !.config/digikamrc
 !.config/mimeapps.list
 !.config/user-dirs.dirs
+!.config/Code
+!.config/Code/User
+!.config/Code/User/settings.json
 
 # cinnamon
 !.cinnamon

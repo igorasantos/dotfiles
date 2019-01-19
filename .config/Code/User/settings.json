@@ -1,0 +1,11 @@
+{
+    "workbench.colorTheme": "Visual Studio Dark",
+    "window.zoomLevel": 0,
+    "editor.fontSize": 14,
+    "editor.formatOnPaste": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "files.autoSave": "onFocusChange",
+    "editor.wordWrap": "on",
+    "breadcrumbs.enabled": true
+}

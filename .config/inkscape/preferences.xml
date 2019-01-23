@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="0"
-         height="0"
+         width="324.286"
+         height="85.7143"
          rx="0"
          ry="0" />
       <eventcontext
@@ -170,7 +170,9 @@
          style="fill:red;"
          end="0"
          start="0"
-         usecurrent="1" />
+         usecurrent="1"
+         rx="32.0339"
+         ry="126.801" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -324,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -333,7 +335,8 @@
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
        style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
-       selcue="1">
+       selcue="1"
+       align_mode="1">
       <group
          id="lineheight"
          display_unit="0" />
@@ -403,7 +406,8 @@
        selcue="1"
        gradientdrag="1"
        pick="1"
-       setalpha="1" />
+       setalpha="1"
+       onetimepick="0" />
     <eventcontext
        id="select"
        selcue="1"
@@ -422,6 +426,7 @@
        offset="0"
        offsetunits="mm" />
     <group
+       unit="px"
        id="measure"
        fontsize="10"
        precision="2"
@@ -564,7 +569,20 @@
     <group
        id="toolbox" />
     <group
-       id="fillstroke" />
+       id="fillstroke"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       page="0"
+       x="0"
+       y="0"
+       w="343"
+       h="393"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="filtereffects" />
     <group
@@ -573,7 +591,20 @@
        id="transformation"
        applyseparately="0" />
     <group
-       id="align" />
+       id="align"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       align-to="4"
+       x="0"
+       y="0"
+       w="257"
+       h="483"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="xml"
        panel_size="1"
@@ -583,8 +614,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="341"
-       h="266"
+       w="454"
+       h="509"
        visible="0"
        state="2"
        placement="1" />
@@ -598,30 +629,67 @@
        ignorenumbers="1" />
     <group
        id="documentoptions"
-       state="1" />
+       state="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="683"
+       y="384"
+       w="529"
+       h="752"
+       visible="0"
+       placement="1" />
     <group
        id="preferences"
        state="1" />
     <group
        id="gradienteditor" />
     <group
-       id="object" />
+       id="object"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="295"
+       h="459"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="export"
        default=""
        append_extension="1"
-       path="">
+       path=""
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="314"
+       h="438"
+       visible="1"
+       state="2"
+       placement="1">
       <group
-         id="exportarea" />
+         id="exportarea"
+         value="drawing" />
       <group
-         id="defaultxdpi" />
+         id="defaultxdpi"
+         value="150" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path=""
+       path="/home/developer/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -632,7 +700,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="" />
+       path="/home/developer/Downloads/logo-master/" />
     <group
        id="import"
        enable_preview="1"
@@ -670,12 +738,12 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="928"
-       y="94"
-       w="343"
-       h="489"
-       visible="1"
-       state="1"
+       x="0"
+       y="0"
+       w="214"
+       h="303"
+       visible="0"
+       state="2"
        placement="1" />
     <group
        id="extensioneditor" />
@@ -706,6 +774,20 @@
        on-focus="1.0"
        on-blur="0.50"
        animate-time="100" />
+    <group
+       placement="1"
+       state="2"
+       visible="0"
+       h="209"
+       w="243"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="objects" />
   </group>
   <group
      id="printing">
@@ -995,12 +1077,12 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ffaaaa">
+     style="line-height:1.25;fill:#000000;-inkscape-font-specification:'Assistant Bold';font-family:Assistant;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:1;text-anchor:middle;text-align:center">
     <group
-       width="1366"
-       height="741"
+       width="749"
+       height="480"
        x="0"
-       y="6"
+       y="0"
        fullscreen="0"
        id="geometry"
        maximized="1" />

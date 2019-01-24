@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="324.286"
-         height="85.7143"
+         width="82.3274"
+         height="91.9239"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="32.0339"
-         ry="126.801" />
+         rx="441.963"
+         ry="441.963" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="cm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -426,7 +426,7 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="px"
+       unit="cm"
        id="measure"
        fontsize="10"
        precision="2"
@@ -575,7 +575,7 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="0"
+       page="2"
        x="0"
        y="0"
        w="343"
@@ -601,7 +601,7 @@
        x="0"
        y="0"
        w="257"
-       h="483"
+       h="388"
        visible="0"
        state="2"
        placement="1" />
@@ -679,7 +679,7 @@
        placement="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
          value="150" />
@@ -700,7 +700,7 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/developer/Downloads/logo-master/" />
+       path="/home/developer/Downloads/" />
     <group
        id="import"
        enable_preview="1"
@@ -740,8 +740,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="214"
-       h="303"
+       w="301"
+       h="154"
        visible="0"
        state="2"
        placement="1" />
@@ -1077,7 +1077,7 @@
      id="extensions" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#000000;-inkscape-font-specification:'Assistant Bold';font-family:Assistant;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:1;text-anchor:middle;text-align:center">
+     style="line-height:1.25;fill:#ffffff;-inkscape-font-specification:'Assistant Bold';font-family:Assistant;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:0.449">
     <group
        width="749"
        height="480"

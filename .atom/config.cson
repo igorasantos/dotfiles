@@ -1,0 +1,30 @@
+"*":
+  core:
+    telemetryConsent: "limited"
+    themes: [
+      "one-dark-ui"
+      "monokai-dark"
+    ]
+  editor:
+    fontSize: 20
+    showIndentGuide: true
+    softWrap: true
+  "exception-reporting":
+    userId: "174a5198-ac3f-454c-bc30-4892f60b84a5"
+  "git-diff":
+    showIconsInEditorGutter: true
+  "git-log":
+    fontScale: 1
+  "highlight-selected": {}
+  minimap:
+    plugins:
+      bookmarks: true
+      bookmarksDecorationsZIndex: 0
+      cursorline: true
+      cursorlineDecorationsZIndex: 0
+      "git-diff": false
+      "git-diffDecorationsZIndex": 0
+      "highlight-selected": true
+      "highlight-selectedDecorationsZIndex": 0
+  "minimap-git-diff":
+    useGutterDecoration: true

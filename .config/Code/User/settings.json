@@ -8,5 +8,7 @@
     "files.autoSave": "onFocusChange",
     "editor.wordWrap": "on",
     "breadcrumbs.enabled": true,
-    "explorer.confirmDragAndDrop": false
+    "explorer.confirmDragAndDrop": false,
+    "editor.tabSize": 2,
+    "editor.mouseWheelZoom": true
 }

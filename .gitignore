@@ -50,6 +50,10 @@
 !.icons/default
 !.icons/default/index.theme
 
+# Atom
+!.atom
+!.atom/*
+
 # Bash
 !.bashrc
 !.bash_aliases

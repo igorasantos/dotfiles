@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="82.3274"
-         height="91.9239"
+         width="228.215"
+         height="35.608"
          rx="0"
          ry="0" />
       <eventcontext
@@ -575,11 +575,11 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       page="2"
+       page="0"
        x="0"
        y="0"
-       w="343"
-       h="393"
+       w="325"
+       h="452"
        visible="0"
        state="2"
        placement="1" />
@@ -600,11 +600,12 @@
        align-to="4"
        x="0"
        y="0"
-       w="257"
-       h="388"
+       w="274"
+       h="454"
        visible="0"
        state="2"
-       placement="1" />
+       placement="1"
+       sel-as-groups="0" />
     <group
        id="xml"
        panel_size="1"
@@ -612,12 +613,12 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="0"
+       x="1025"
        y="0"
-       w="454"
-       h="509"
+       w="337"
+       h="477"
        visible="0"
-       state="2"
+       state="1"
        placement="1" />
     <group
        id="find" />
@@ -635,10 +636,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="683"
-       y="384"
-       w="529"
-       h="752"
+       x="1170"
+       y="186"
+       w="551"
+       h="714"
        visible="0"
        placement="1" />
     <group
@@ -672,8 +673,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="314"
-       h="438"
+       w="326"
+       h="417"
        visible="1"
        state="2"
        placement="1">
@@ -689,7 +690,7 @@
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/developer/Downloads"
+       path="/mnt/projs_servs/_org/trello/svg_used"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -704,10 +705,11 @@
     <group
        id="import"
        enable_preview="1"
-       path=""
+       path="/home/developer/Downloads/"
        ask="1"
        link="link"
-       scale="optimizeSpeed" />
+       scale="auto"
+       forcexdpi="0" />
     <group
        id="debug"
        redirect="0" />
@@ -740,8 +742,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="301"
-       h="154"
+       w="243"
+       h="169"
        visible="0"
        state="2"
        placement="1" />
@@ -1074,18 +1076,19 @@
        id="rendering" />
   </group>
   <group
-     id="extensions" />
+     id="extensions"
+     org.inkscape.input.gdkpixbuf.png.link="link" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ffffff;-inkscape-font-specification:'Assistant Bold';font-family:Assistant;font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:0.449">
+     style="line-height:1.25;fill:#ebebeb;-inkscape-font-specification:'Montserrat Heavy';font-family:Montserrat;font-weight:900;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1">
     <group
-       width="749"
-       height="480"
+       width="1366"
+       height="741"
        x="0"
-       y="0"
+       y="6"
        fullscreen="0"
        id="geometry"
-       maximized="1" />
+       maximized="0" />
     <group
        id="XYfront" />
     <group

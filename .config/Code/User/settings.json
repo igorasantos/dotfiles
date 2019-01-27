@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Visual Studio Dark",
     "window.zoomLevel": 0,
     "editor.fontSize": 14,
     "editor.formatOnPaste": true,
@@ -10,5 +9,8 @@
     "breadcrumbs.enabled": true,
     "explorer.confirmDragAndDrop": false,
     "editor.tabSize": 2,
-    "editor.mouseWheelZoom": true
+    "editor.mouseWheelZoom": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "emmet.showSuggestionsAsSnippets": true,
+    "workbench.colorTheme": "One Dark Pro Vivid"
 }

@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="67.8016"
-         height="24.0493"
+         width="5.71429"
+         height="36.9146"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="441.963"
-         ry="441.963" />
+         rx="114.116"
+         ry="114.116" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -326,7 +326,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -338,8 +338,8 @@
        selcue="1"
        align_mode="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -357,8 +357,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="358.435"
-       y="260.386"
+       x="0"
+       y="0"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -426,12 +426,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       offset="5"
-       scale="100"
-       precision="2"
-       fontsize="10"
+       unit="mm"
        id="measure"
-       unit="px" />
+       fontsize="10"
+       precision="2"
+       scale="100"
+       offset="5" />
   </group>
   <group
      id="palette">
@@ -552,7 +552,7 @@
   </group>
   <group
      id="colorselector"
-     page="0" />
+     page="1" />
   <group
      id="embedded">
     <group
@@ -578,18 +578,31 @@
        page="0"
        x="0"
        y="0"
-       w="325"
-       h="361"
-       visible="0"
+       w="315"
+       h="362"
+       visible="1"
        state="2"
-       placement="1" />
+       placement="5" />
     <group
        id="filtereffects" />
     <group
        id="textandfont" />
     <group
        id="transformation"
-       applyseparately="0" />
+       applyseparately="0"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       rotateCounterClockwise="1"
+       x="0"
+       y="0"
+       w="324"
+       h="359"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="align"
        panel_size="1"
@@ -597,15 +610,15 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       align-to="1"
+       align-to="4"
        x="0"
        y="0"
-       w="326"
-       h="452"
+       w="315"
+       h="362"
        visible="1"
        state="2"
        placement="5"
-       sel-as-groups="0" />
+       sel-as-groups="1" />
     <group
        id="xml"
        panel_size="1"
@@ -613,10 +626,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1025"
+       x="370"
        y="0"
-       w="337"
-       h="477"
+       w="531"
+       h="611"
        visible="0"
        state="1"
        placement="1" />
@@ -636,9 +649,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1287"
-       y="97"
-       w="551"
+       x="1008"
+       y="112"
+       w="561"
        h="714"
        visible="0"
        placement="1" />
@@ -673,24 +686,24 @@
        panel_border="0"
        x="0"
        y="0"
-       w="326"
-       h="452"
+       w="315"
+       h="417"
        visible="1"
        state="2"
-       placement="5">
+       placement="1">
       <group
          id="exportarea"
-         value="drawing" />
+         value="page" />
       <group
          id="defaultxdpi"
-         value="126.89" />
+         value="252" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/mnt/projs_servs/_org/trello/svg_used"
+       path="/home/developer/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -705,9 +718,9 @@
     <group
        id="import"
        enable_preview="1"
-       path="/home/developer/Downloads/"
+       path="/home/developer/Downloads/Telegram Desktop/"
        ask="1"
-       link="link"
+       link="embed"
        scale="auto"
        forcexdpi="0" />
     <group
@@ -742,8 +755,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="243"
-       h="169"
+       w="270"
+       h="256"
        visible="0"
        state="2"
        placement="1" />
@@ -777,19 +790,19 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       id="objects"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="243"
-       h="209"
-       visible="0"
+       placement="1"
        state="2"
-       placement="1" />
+       visible="0"
+       h="209"
+       w="243"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="objects" />
   </group>
   <group
      id="printing">
@@ -800,7 +813,9 @@
        add-label-comments="0" />
   </group>
   <group
-     id="options">
+     id="options"
+     dpifixbackup="0"
+     dpiupdatemethod="0">
     <group
        id="renderingcache"
        size="64" />
@@ -1080,7 +1095,7 @@
      org.inkscape.input.gdkpixbuf.png.link="link" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#ffffff;-inkscape-font-specification:'Liberation Mono';font-family:'Liberation Mono';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1">
+     style="line-height:1.25;fill:#ffff00;-inkscape-font-specification:'Ubuntu Mono';font-family:'Ubuntu Mono';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:0.62189054;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1">
     <group
        width="1366"
        height="741"

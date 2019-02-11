@@ -12,5 +12,5 @@
     "editor.mouseWheelZoom": true,
     "workbench.iconTheme": "material-icon-theme",
     "emmet.showSuggestionsAsSnippets": true,
-    "workbench.colorTheme": "One Dark Pro Vivid"
+    "workbench.colorTheme": "Monokai"
 }

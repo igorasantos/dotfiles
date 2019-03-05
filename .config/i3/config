@@ -261,10 +261,9 @@ bindsym Print exec "scrot -e 'mv $f ~/Pictures/ && gpicview ~/Pictures/$f'"
 bindsym $Super+Print exec "scrot -u -e 'mv $f ~/Pictures/ && gpicview ~/Pictures/$f'"
 
 # Screen brightness controls
+# commands that didn't worked to me
 # bindsym XF86MonBrightnessUp exec xbacklight -inc 20
 # bindsym XF86MonBrightnessDown exec xbacklight -dec 20
-# bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5
-# bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
 # bindsym XF86MonBrightnessUp exec --no-startup-id xbacklight -inc 5
 # bindsym XF86MonBrightnessDown exec --no-startup-id xbacklight -dec 5
 # bindsym XF86MonBrightnessUp exec xbacklight +10
@@ -274,7 +273,16 @@ bindsym $Super+Print exec "scrot -u -e 'mv $f ~/Pictures/ && gpicview ~/Pictures
 # bindsym XF86KbdBrightnessDown exec "kbd_backlight down"
 # bindsym XF86KbdBrightnessUp exec brightnessctl s +5%
 # bindsym XF86KbdBrightnessDown exec brightnessctl s 5%-
+# bindsym XF86KbdBrightnessUp     exec light -k -A 10
+# bindsym XF86KbdBrightnessDown   exec light -k -U 10
+# bindsym XF86MonBrightnessUp     exec light -k -A 10
+# bindsym XF86MonBrightnessDown   exec light -k -U 10
 
+# commands that worked to me
+# tip from: https://www.reddit.com/r/i3wm/comments/89dgq0/enable_brightness_control_is_not_working/dwq79nw
+# thanks to: https://github.com/marcospb19/
+bindsym XF86MonBrightnessUp exec light -A 5
+bindsym XF86MonBrightnessDown exec light -U 5
 
 # # # # # # # # # # 
 # <end>

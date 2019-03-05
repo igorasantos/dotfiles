@@ -338,8 +338,8 @@
        selcue="1"
        align_mode="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -426,12 +426,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="px"
-       id="measure"
-       fontsize="10"
-       precision="2"
+       offset="5"
        scale="100"
-       offset="5" />
+       precision="2"
+       fontsize="10"
+       id="measure"
+       unit="px" />
   </group>
   <group
      id="palette">
@@ -579,7 +579,7 @@
        x="0"
        y="0"
        w="307"
-       h="415"
+       h="452"
        visible="1"
        state="2"
        placement="5" />
@@ -614,7 +614,7 @@
        x="0"
        y="0"
        w="307"
-       h="415"
+       h="452"
        visible="1"
        state="2"
        placement="5"
@@ -687,7 +687,7 @@
        x="0"
        y="0"
        w="307"
-       h="415"
+       h="452"
        visible="1"
        state="2"
        placement="5">
@@ -790,19 +790,19 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       placement="1"
-       state="2"
-       visible="0"
-       h="209"
-       w="243"
-       y="0"
-       x="0"
-       panel_border="0"
-       panel_wrap="0"
-       panel_mode="1"
-       panel_ratio="100"
+       id="objects"
        panel_size="1"
-       id="objects" />
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="243"
+       h="209"
+       visible="0"
+       state="2"
+       placement="1" />
   </group>
   <group
      id="printing">

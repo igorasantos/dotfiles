@@ -28,6 +28,8 @@
 !.config/Code
 !.config/Code/User
 !.config/Code/User/settings.json
+!.config/nautilus
+!.config/nautilus/*
 
 # cinnamon
 !.cinnamon

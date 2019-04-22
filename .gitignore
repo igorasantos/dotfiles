@@ -63,6 +63,7 @@
 
 # others at home
 !.fehbg
+!.my.cnf
 
 # Don't ignore itself!
 !.gitignore

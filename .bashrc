@@ -4,7 +4,7 @@
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
-printf "Welcome!\n"
+printf "Welcome!\nType Control + C\n"
 
 # If not running interactively, don't do anything
 case $- in
@@ -129,3 +129,19 @@ export PATH=/sbin/:$PATH
 
 # Autolock with i3lock - "Gaussian Blur Lock Screen": http://plankenau.com/blog/post/gaussianlock
 xautolock -time 10 -locker lock
+# Install Ruby Gems to ~/gems
+export GEM_HOME="$HOME/gems"
+export PATH="$HOME/gems/bin:$PATH"
+
+man() {
+    LESS_TERMCAP_md=$'\e[01;31m' \
+    LESS_TERMCAP_me=$'\e[0m' \
+    LESS_TERMCAP_se=$'\e[0m' \
+    LESS_TERMCAP_so=$'\e[01;44;33m' \
+    LESS_TERMCAP_ue=$'\e[0m' \
+    LESS_TERMCAP_us=$'\e[01;32m' \
+    command man "$@"
+}
+export ANDROID_HOME="$HOME/Android/Sdk"
+export PATH="${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
+export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"

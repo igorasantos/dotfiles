@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="323.797"
-         height="204.475"
+         width="2.53704"
+         height="0.397748"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="154.131"
-         ry="154.131" />
+         rx="137.5"
+         ry="137.5" />
       <eventcontext
          id="star"
          magnitude="5"
@@ -357,8 +357,8 @@
        live_outline="1"
        live_objects="1"
        show_helperpath="0"
-       x="0"
-       y="0"
+       x="-358.371"
+       y="63.8601"
        edit_clipping_paths="0"
        edit_masks="0" />
     <eventcontext
@@ -579,14 +579,26 @@
        x="0"
        y="0"
        w="307"
-       h="452"
-       visible="1"
+       h="415"
+       visible="0"
        state="2"
-       placement="5" />
+       placement="1" />
     <group
        id="filtereffects" />
     <group
-       id="textandfont" />
+       id="textandfont"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="308"
+       h="513"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="transformation"
        applyseparately="0"
@@ -610,15 +622,15 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       align-to="4"
+       align-to="2"
        x="0"
        y="0"
        w="307"
-       h="452"
+       h="415"
        visible="1"
        state="2"
        placement="5"
-       sel-as-groups="1" />
+       sel-as-groups="0" />
     <group
        id="xml"
        panel_size="1"
@@ -626,10 +638,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="370"
-       y="0"
-       w="531"
-       h="611"
+       x="696"
+       y="67"
+       w="666"
+       h="266"
        visible="0"
        state="1"
        placement="1" />
@@ -649,9 +661,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1025"
-       y="162"
-       w="551"
+       x="911"
+       y="241"
+       w="561"
        h="714"
        visible="0"
        placement="1" />
@@ -669,8 +681,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="295"
-       h="459"
+       w="309"
+       h="234"
        visible="0"
        state="2"
        placement="1" />
@@ -687,23 +699,23 @@
        x="0"
        y="0"
        w="307"
-       h="452"
+       h="415"
        visible="1"
        state="2"
        placement="5">
       <group
          id="exportarea"
-         value="page" />
+         value="drawing" />
       <group
          id="defaultxdpi"
-         value="255" />
+         value="761.54" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/developer/Downloads"
+       path="/home/developer/Desktop/java rn"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -714,13 +726,13 @@
     <group
        id="open"
        enable_preview="1"
-       path="/home/developer/Downloads/" />
+       path="/home/developer/Desktop/java rn/" />
     <group
        id="import"
        enable_preview="1"
-       path="/home/developer/Downloads/Telegram Desktop/"
+       path="/home/developer/Desktop/java rn/"
        ask="1"
-       link="embed"
+       link="link"
        scale="auto"
        forcexdpi="0" />
     <group
@@ -759,7 +771,7 @@
        h="169"
        visible="1"
        state="2"
-       placement="1" />
+       placement="2" />
     <group
        id="extensioneditor" />
     <group
@@ -798,11 +810,25 @@
        panel_border="0"
        x="0"
        y="0"
-       w="243"
-       h="209"
+       w="247"
+       h="204"
        visible="0"
        state="2"
        placement="1" />
+    <group
+       placement="1"
+       state="2"
+       visible="0"
+       h="580"
+       w="80"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="tags" />
   </group>
   <group
      id="printing">
@@ -1092,10 +1118,13 @@
   </group>
   <group
      id="extensions"
-     org.inkscape.input.gdkpixbuf.png.link="link" />
+     org.inkscape.input.gdkpixbuf.png.link="link"
+     org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
+     org.inkscape.output.pdf.cairorenderer.resolution="96"
+     org.inkscape.output.pdf.cairorenderer.bleed="0" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#baa8b5;-inkscape-font-specification:'Ubuntu Mono';font-family:'Ubuntu Mono';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:96px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1">
+     style="line-height:1.25;fill:#ffffff;-inkscape-font-specification:ubuntu;font-family:ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:29.33333333px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0;stroke-miterlimit:4;stroke-dasharray:none">
     <group
        width="1366"
        height="741"
@@ -1200,4 +1229,22 @@
   <group
      id="ui"
      language="" />
+  <group
+     id="metadata">
+    <group
+       contributor=""
+       description=""
+       coverage=""
+       subject=""
+       language=""
+       relation=""
+       source="https://dryicons.com/icon/rounded-database-server-icon-9795"
+       identifier=""
+       publisher=""
+       rights=""
+       creator=""
+       date=""
+       title="database-server1-flat"
+       id="rdf" />
+  </group>
 </inkscape>

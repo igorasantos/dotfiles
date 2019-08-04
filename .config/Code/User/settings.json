@@ -10,7 +10,9 @@
     "explorer.confirmDragAndDrop": false,
     "editor.tabSize": 2,
     "editor.mouseWheelZoom": true,
-    "workbench.iconTheme": "material-icon-theme",
     "emmet.showSuggestionsAsSnippets": true,
-    "workbench.colorTheme": "Monokai"
+    "workbench.colorTheme": "Monokai",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "explorer.confirmDelete": false
 }

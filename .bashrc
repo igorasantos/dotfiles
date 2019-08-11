@@ -145,3 +145,4 @@ man() {
 export ANDROID_HOME="$HOME/Android/Sdk"
 export PATH="${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64

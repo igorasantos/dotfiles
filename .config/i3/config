@@ -7,6 +7,7 @@ exec ./.fehbg
 exec setxkbmap br abnt2
 exec pulseaudio
 exec dropbox start
+exec slack
 exec /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
 # general sets
@@ -133,6 +134,7 @@ assign [class="Inkscape"] $ws6
 assign [class="digikam"] $ws6
 ### 7
 assign [class="libreoffice-startcenter|Soffice"] $ws7
+assign [class="^Slack"] $ws7
 ### 8
 assign [class="Xviewer"] $ws8
 assign [class="Xreader"] $ws8

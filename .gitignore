@@ -59,6 +59,10 @@
 !.bash_aliases
 !.bash_functions
 
+# ZSH
+!.zshrc
+!.zshrc.pre-oh-my-zsh
+
 # others at home
 !.fehbg
 

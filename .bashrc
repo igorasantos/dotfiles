@@ -77,9 +77,11 @@ alias ex='extract'
 
 
 if [ "$color_prompt" = yes ]; then
-    PS1='${debian_chroot:+($debian_chroot)}\[\e[1;32m\]\u\[\e[1;30m\]@\[\e[1;32m\]\h\[\e[1;30m\]:\[\e[1;34m\]\w\[\e[1;30m\]\$\[\e[m\] '
+    # PS1='${debian_chroot:+($debian_chroot)}\[\e[1;32m\]\u\[\e[1;30m\]@\[\e[1;32m\]\h\[\e[1;30m\]:\[\e[1;34m\]\w\[\e[1;30m\]\$\[\e[m\] '
+    PS1='${debian_chroot:+($debian_chroot)}\[\e[1;32m\]\u\[\e[1;30m\]@\[\e[1;32m\]\h\[\e[1;30m\]:\[\e[1;34m\]\w\[\e[1;30m\]$(__git_ps1 "[%s]")\[\033[00m\]\$\[\e[m\] '
 else
-    PS1='${debian_chroot:+($debian_chroot)}\[\e[1;32m\]\u\[\e[1;30m\]@\[\e[1;32m\]\h\[\e[1;30m\]:\[\e[1;34m\]\w\[\e[1;30m\]\$\[\e[m\] '
+    # PS1='${debian_chroot:+($debian_chroot)}\[\e[1;32m\]\u\[\e[1;30m\]@\[\e[1;32m\]\h\[\e[1;30m\]:\[\e[1;34m\]\w\[\e[1;30m\]$(__git_ps1 "(%s)")\[\033[00m\]\$\[\e[m\] '
+    PS1='${debian_chroot:+($debian_chroot)}\[\e[1;32m\]\u\[\e[1;30m\]@\[\e[1;32m\]\h\[\e[1;30m\]:\[\e[1;34m\]\w\[\e[1;30m\]$(__git_ps1 "[%s]")\[\033[00m\]\$\[\e[m\] '
     # PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 fi
 unset color_prompt force_color_prompt
@@ -146,3 +148,4 @@ export ANDROID_HOME="$HOME/Android/Sdk"
 export PATH="${PATH}:$ANDROID_HOME/tools:$ANDROID_HOME/platform-tools"
 export PATH="/home/linuxbrew/.linuxbrew/bin:$PATH"
 export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
+

@@ -4,10 +4,10 @@
 # initial loads
 exec xcompmgr 
 exec ./.fehbg
+exec ./apps/Telegram/Telegram
 exec setxkbmap br abnt2
 exec pulseaudio
 exec dropbox start
-exec slack
 exec /usr/lib/policykit-1-gnome/polkit-gnome-authentication-agent-1
 
 # general sets

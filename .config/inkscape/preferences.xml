@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="29.8484"
-         height="7.57614"
+         width="377.953"
+         height="377.953"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="109.096"
-         ry="187.888"
+         rx="64.583"
+         ry="64.5838"
          open="0" />
       <eventcontext
          id="star"
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -339,8 +339,8 @@
        selcue="1"
        align_mode="1">
       <group
-         id="lineheight"
-         display_unit="0" />
+         display_unit="0"
+         id="lineheight" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -427,12 +427,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       unit="px"
-       id="measure"
-       fontsize="10"
-       precision="2"
+       offset="5"
        scale="100"
-       offset="5" />
+       precision="2"
+       fontsize="10"
+       id="measure"
+       unit="mm" />
   </group>
   <group
      id="palette">
@@ -579,8 +579,8 @@
        page="0"
        x="0"
        y="0"
-       w="326"
-       h="361"
+       w="755"
+       h="418"
        visible="0"
        state="2"
        placement="1" />
@@ -626,9 +626,9 @@
        align-to="4"
        x="0"
        y="0"
-       w="255"
-       h="454"
-       visible="0"
+       w="274"
+       h="563"
+       visible="1"
        state="2"
        placement="1"
        sel-as-groups="0" />
@@ -639,9 +639,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="700"
+       x="724"
        y="0"
-       w="662"
+       w="638"
        h="266"
        visible="0"
        state="1"
@@ -662,10 +662,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1142"
-       y="302"
+       x="955"
+       y="137"
        w="561"
-       h="714"
+       h="774"
        visible="0"
        placement="1" />
     <group
@@ -699,8 +699,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="326"
-       h="415"
+       w="755"
+       h="417"
        visible="0"
        state="2"
        placement="1">
@@ -709,7 +709,10 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="150" />
+         value="594.58" />
+      <group
+         id="hideexceptselected"
+         value="0" />
     </group>
     <group
        id="save_as"
@@ -768,9 +771,9 @@
        panel_border="0"
        x="0"
        y="0"
-       w="243"
-       h="287"
-       visible="1"
+       w="755"
+       h="418"
+       visible="0"
        state="2"
        placement="1" />
     <group
@@ -803,30 +806,44 @@
        on-blur="0.50"
        animate-time="100" />
     <group
+       id="objects"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="247"
+       h="204"
+       visible="0"
+       state="2"
+       placement="1" />
+    <group
        placement="1"
        state="2"
        visible="0"
-       h="204"
-       w="247"
-       y="0"
-       x="0"
-       panel_border="0"
-       panel_wrap="0"
-       panel_mode="1"
-       panel_ratio="100"
-       panel_size="1"
-       id="objects" />
-    <group
-       id="tags"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="80"
        h="580"
+       w="80"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="tags" />
+    <group
+       id="glyphs"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       w="774"
+       h="563"
        visible="0"
        state="2"
        placement="1" />
@@ -1122,10 +1139,11 @@
      org.inkscape.input.gdkpixbuf.png.link="link"
      org.inkscape.output.pdf.cairorenderer.PDFversion="PDF-1.5"
      org.inkscape.output.pdf.cairorenderer.resolution="96"
-     org.inkscape.output.pdf.cairorenderer.bleed="0" />
+     org.inkscape.output.pdf.cairorenderer.bleed="0"
+     org.inkscape.output.pdf.cairorenderer.textToPath="embed" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#aeb7b3;-inkscape-font-specification:'Ubuntu Medium';font-family:Ubuntu;font-weight:500;font-style:normal;font-stretch:normal;font-variant:normal;font-size:29.33333333px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
+     style="line-height:0.25;fill:#b6b7ed;-inkscape-font-specification:FreeSerif;font-family:FreeSerif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:29.33333333px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
     <group
        width="1366"
        height="741"
@@ -1233,19 +1251,19 @@
   <group
      id="metadata">
     <group
-       id="rdf"
-       title="database-server1-flat"
-       date=""
-       creator=""
-       rights=""
-       publisher=""
-       identifier=""
-       source="https://dryicons.com/icon/rounded-database-server-icon-9795"
-       relation=""
-       language=""
-       subject=""
-       coverage=""
+       contributor=""
        description=""
-       contributor="" />
+       coverage=""
+       subject=""
+       language=""
+       relation=""
+       source="https://dryicons.com/icon/rounded-database-server-icon-9795"
+       identifier=""
+       publisher=""
+       rights=""
+       creator=""
+       date=""
+       title="database-server1-flat"
+       id="rdf" />
   </group>
 </inkscape>

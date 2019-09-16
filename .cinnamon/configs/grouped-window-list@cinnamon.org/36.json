@@ -172,8 +172,7 @@
             "nemo.desktop",
             "chromium-browser.desktop",
             "virtualbox.desktop",
-            "gnome-system-monitor.desktop",
-            "telegramdesktop.desktop"
+            "gnome-system-monitor.desktop"
         ]
     },
     "group-apps": {

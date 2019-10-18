@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="377.953"
-         height="377.953"
+         width="6.944"
+         height="1.41421"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="64.583"
-         ry="64.5838"
+         rx="59.9847"
+         ry="59.9847"
          open="0" />
       <eventcontext
          id="star"
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="mm"
+       unit="px"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -432,7 +432,7 @@
        precision="2"
        fontsize="10"
        id="measure"
-       unit="mm" />
+       unit="px" />
   </group>
   <group
      id="palette">
@@ -553,7 +553,7 @@
   </group>
   <group
      id="colorselector"
-     page="1" />
+     page="0" />
   <group
      id="embedded">
     <group
@@ -579,9 +579,9 @@
        page="0"
        x="0"
        y="0"
-       w="755"
-       h="418"
-       visible="0"
+       w="306"
+       h="361"
+       visible="1"
        state="2"
        placement="1" />
     <group
@@ -626,11 +626,11 @@
        align-to="4"
        x="0"
        y="0"
-       w="274"
-       h="563"
+       w="306"
+       h="454"
        visible="1"
        state="2"
-       placement="1"
+       placement="2"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -639,9 +639,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="724"
+       x="732"
        y="0"
-       w="638"
+       w="630"
        h="266"
        visible="0"
        state="1"
@@ -662,10 +662,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="955"
-       y="137"
-       w="561"
-       h="774"
+       x="856"
+       y="160"
+       w="551"
+       h="714"
        visible="0"
        placement="1" />
     <group
@@ -699,7 +699,7 @@
        panel_border="0"
        x="0"
        y="0"
-       w="755"
+       w="307"
        h="417"
        visible="0"
        state="2"
@@ -709,7 +709,7 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="594.58" />
+         value="553" />
       <group
          id="hideexceptselected"
          value="0" />
@@ -771,11 +771,11 @@
        panel_border="0"
        x="0"
        y="0"
-       w="755"
-       h="418"
-       visible="0"
+       w="306"
+       h="169"
+       visible="1"
        state="2"
-       placement="1" />
+       placement="2" />
     <group
        id="extensioneditor" />
     <group
@@ -1143,7 +1143,7 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="embed" />
   <group
      id="desktop"
-     style="line-height:0.25;fill:#b6b7ed;-inkscape-font-specification:FreeSerif;font-family:FreeSerif;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:29.33333333px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
+     style="line-height:1.25;fill:#e7bb41;-inkscape-font-specification:Ubuntu;font-family:Ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:29.33333333px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
     <group
        width="1366"
        height="741"

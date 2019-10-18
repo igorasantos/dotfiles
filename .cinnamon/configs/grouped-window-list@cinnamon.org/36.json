@@ -170,9 +170,9 @@
         "value": [
             "termite.desktop",
             "nemo.desktop",
-            "chromium-browser.desktop",
             "virtualbox.desktop",
-            "gnome-system-monitor.desktop"
+            "gnome-system-monitor.desktop",
+            "chromium-browser.desktop"
         ]
     },
     "group-apps": {

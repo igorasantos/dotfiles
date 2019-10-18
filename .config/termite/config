@@ -22,7 +22,7 @@ urgent_on_bell = true
 hyperlinks = true
 
 # $BROWSER is used by default if set, with xdg-open as a fallback
-browser = firefox
+browser = chromium
 
 cursor_blink = on
 cursor_shape = ibeam

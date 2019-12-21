@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="6.944"
-         height="1.41421"
+         width="801.977"
+         height="590.147"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="59.9847"
-         ry="59.9847"
+         rx="354.368"
+         ry="96.6459"
          open="0" />
       <eventcontext
          id="star"
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -339,8 +339,8 @@
        selcue="1"
        align_mode="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -427,12 +427,12 @@
        offset="0"
        offsetunits="mm" />
     <group
-       offset="5"
-       scale="100"
-       precision="2"
-       fontsize="10"
+       unit="mm"
        id="measure"
-       unit="px" />
+       fontsize="10"
+       precision="2"
+       scale="100"
+       offset="5" />
   </group>
   <group
      id="palette">
@@ -579,8 +579,8 @@
        page="0"
        x="0"
        y="0"
-       w="306"
-       h="361"
+       w="320"
+       h="393"
        visible="1"
        state="2"
        placement="1" />
@@ -595,8 +595,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="308"
-       h="513"
+       w="361"
+       h="548"
        visible="0"
        state="2"
        placement="1" />
@@ -623,14 +623,14 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       align-to="4"
+       align-to="2"
        x="0"
        y="0"
-       w="306"
-       h="454"
-       visible="1"
+       w="322"
+       h="483"
+       visible="0"
        state="2"
-       placement="2"
+       placement="1"
        sel-as-groups="0" />
     <group
        id="xml"
@@ -639,21 +639,31 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="732"
-       y="0"
-       w="630"
-       h="266"
-       visible="0"
+       x="0"
+       y="25"
+       w="1358"
+       h="652"
+       visible="1"
        state="1"
        placement="1" />
     <group
        id="find" />
     <group
        id="spellcheck"
-       w="200"
-       h="250"
+       w="348"
+       h="231"
        lang="en_US"
-       ignorenumbers="1" />
+       ignorenumbers="1"
+       panel_size="1"
+       panel_ratio="100"
+       panel_mode="1"
+       panel_wrap="0"
+       panel_border="0"
+       x="0"
+       y="0"
+       visible="0"
+       state="2"
+       placement="1" />
     <group
        id="documentoptions"
        state="1"
@@ -662,10 +672,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="856"
-       y="160"
-       w="551"
-       h="714"
+       x="1805"
+       y="108"
+       w="534"
+       h="752"
        visible="0"
        placement="1" />
     <group
@@ -699,8 +709,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="307"
-       h="417"
+       w="301"
+       h="438"
        visible="0"
        state="2"
        placement="1">
@@ -709,24 +719,24 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="553" />
+         value="97.59" />
       <group
-         id="hideexceptselected"
-         value="0" />
+         value="0"
+         id="hideexceptselected" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/developer/Desktop"
+       path="/home/developer/Desktop/site dcac/logos"
        use_current_dir="1" />
     <group
        id="save_copy"
-       default=""
+       default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="" />
+       path="/home/developer/Desktop" />
     <group
        id="open"
        enable_preview="1"
@@ -743,7 +753,8 @@
        id="debug"
        redirect="0" />
     <group
-       id="clonetiler" />
+       id="clonetiler"
+       dotrace="0" />
     <group
        id="gridtiler" />
     <group
@@ -771,8 +782,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="306"
-       h="169"
+       w="320"
+       h="154"
        visible="1"
        state="2"
        placement="2" />
@@ -806,7 +817,21 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       id="objects"
+       placement="1"
+       state="2"
+       visible="0"
+       h="209"
+       w="243"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="objects" />
+    <group
+       id="tags"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
@@ -814,8 +839,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="247"
-       h="204"
+       w="80"
+       h="580"
        visible="0"
        state="2"
        placement="1" />
@@ -823,30 +848,16 @@
        placement="1"
        state="2"
        visible="0"
-       h="580"
-       w="80"
-       y="0"
-       x="0"
-       panel_border="0"
-       panel_wrap="0"
-       panel_mode="1"
-       panel_ratio="100"
-       panel_size="1"
-       id="tags" />
-    <group
-       id="glyphs"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="774"
        h="563"
-       visible="0"
-       state="2"
-       placement="1" />
+       w="774"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="glyphs" />
   </group>
   <group
      id="printing">
@@ -1143,15 +1154,15 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="embed" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#e7bb41;-inkscape-font-specification:Ubuntu;font-family:Ubuntu;font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:29.33333333px;fill-opacity:1;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
+     style="line-height:1.25;fill:#008000;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:53.33333333px;fill-opacity:0.99444443;text-anchor:middle;text-align:center;opacity:0;stroke:none;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
     <group
-       width="1366"
-       height="741"
+       width="770"
+       height="480"
        x="0"
-       y="6"
+       y="0"
        fullscreen="0"
        id="geometry"
-       maximized="0" />
+       maximized="1" />
     <group
        id="XYfront" />
     <group
@@ -1251,19 +1262,19 @@
   <group
      id="metadata">
     <group
-       contributor=""
-       description=""
-       coverage=""
-       subject=""
-       language=""
-       relation=""
-       source="https://dryicons.com/icon/rounded-database-server-icon-9795"
-       identifier=""
-       publisher=""
-       rights=""
-       creator=""
-       date=""
+       id="rdf"
        title="database-server1-flat"
-       id="rdf" />
+       date=""
+       creator=""
+       rights=""
+       publisher=""
+       identifier=""
+       source="https://dryicons.com/icon/rounded-database-server-icon-9795"
+       relation=""
+       language=""
+       subject=""
+       coverage=""
+       description=""
+       contributor="" />
   </group>
 </inkscape>

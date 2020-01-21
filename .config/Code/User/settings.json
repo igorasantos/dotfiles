@@ -16,5 +16,17 @@
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "explorer.confirmDelete": false,
     "workbench.iconTheme": "material-icon-theme",
-    "vsicons.dontShowNewVersionMessage": true
+    "vsicons.dontShowNewVersionMessage": true,
+    "files.associations": {
+        "*.js": "javascript"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "todohighlight.isEnable": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "prettier.singleQuote": true
 }

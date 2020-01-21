@@ -132,8 +132,8 @@
          id="rect"
          style="fill:blue;"
          usecurrent="1"
-         width="580.907"
-         height="803.486"
+         width="12.1218"
+         height="51.7703"
          rx="0"
          ry="0" />
       <eventcontext
@@ -171,8 +171,8 @@
          end="0"
          start="0"
          usecurrent="1"
-         rx="354.368"
-         ry="96.6459"
+         rx="71.5"
+         ry="89.3774"
          open="0" />
       <eventcontext
          id="star"
@@ -327,7 +327,7 @@
        id="lpetool"
        mode="drag"
        style="fill:#ff0000;fill-opacity:1;fill-rule:nonzero;stroke:none;"
-       unit="px"
+       unit="mm"
        show_bbox="1" />
     <eventcontext
        id="text"
@@ -335,12 +335,12 @@
        gradientdrag="1"
        font_sample="AaBbCcIiPpQq12369$€¢?.;/()"
        show_sample_in_list="1"
-       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:'Trebuchet MS';font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px;-inkscape-font-specification:'Trebuchet MS';font-stretch:normal;font-variant:normal"
        selcue="1"
        align_mode="1">
       <group
-         display_unit="0"
-         id="lineheight" />
+         id="lineheight"
+         display_unit="0" />
     </eventcontext>
     <eventcontext
        id="nodes"
@@ -423,16 +423,17 @@
        id="paintbucket"
        style="fill:#a0a0a0;stroke:none;"
        usecurrent="1"
-       threshold="5"
+       threshold="0"
        offset="0"
-       offsetunits="mm" />
+       offsetunits="mm"
+       autogap="1" />
     <group
-       offset="5"
-       scale="100"
-       precision="2"
-       fontsize="10"
+       unit="mm"
        id="measure"
-       unit="px" />
+       fontsize="10"
+       precision="2"
+       scale="100"
+       offset="5" />
   </group>
   <group
      id="palette">
@@ -577,10 +578,10 @@
        panel_wrap="0"
        panel_border="0"
        page="0"
-       x="1026"
-       y="13"
-       w="324"
-       h="425"
+       x="989"
+       y="18"
+       w="334"
+       h="427"
        visible="1"
        state="1"
        placement="1" />
@@ -596,7 +597,7 @@
        x="0"
        y="0"
        w="361"
-       h="548"
+       h="341"
        visible="0"
        state="2"
        placement="1" />
@@ -623,10 +624,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       align-to="2"
+       align-to="4"
        x="0"
        y="0"
-       w="322"
+       w="257"
        h="483"
        visible="0"
        state="2"
@@ -640,9 +641,9 @@
        panel_wrap="0"
        panel_border="0"
        x="0"
-       y="25"
-       w="553"
-       h="652"
+       y="0"
+       w="680"
+       h="534"
        visible="1"
        state="1"
        placement="1" />
@@ -672,9 +673,9 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="1845"
-       y="115"
-       w="525"
+       x="2155"
+       y="98"
+       w="534"
        h="752"
        visible="0"
        placement="1" />
@@ -709,7 +710,7 @@
        panel_border="0"
        x="0"
        y="0"
-       w="301"
+       w="314"
        h="438"
        visible="0"
        state="2"
@@ -719,17 +720,17 @@
          value="drawing" />
       <group
          id="defaultxdpi"
-         value="97.59" />
+         value="556" />
       <group
-         id="hideexceptselected"
-         value="0" />
+         value="0"
+         id="hideexceptselected" />
     </group>
     <group
        id="save_as"
        default="org.inkscape.output.svg.inkscape"
        append_extension="1"
        enable_preview="1"
-       path="/home/developer/Desktop"
+       path="/home/developer/Downloads"
        use_current_dir="1" />
     <group
        id="save_copy"
@@ -780,10 +781,10 @@
        panel_mode="1"
        panel_wrap="0"
        panel_border="0"
-       x="799"
-       y="9"
-       w="219"
-       h="439"
+       x="706"
+       y="0"
+       w="215"
+       h="409"
        visible="1"
        state="1"
        placement="1" />
@@ -817,7 +818,21 @@
        on-blur="0.50"
        animate-time="100" />
     <group
-       id="objects"
+       placement="1"
+       state="2"
+       visible="0"
+       h="209"
+       w="243"
+       y="0"
+       x="0"
+       panel_border="0"
+       panel_wrap="0"
+       panel_mode="1"
+       panel_ratio="100"
+       panel_size="1"
+       id="objects" />
+    <group
+       id="tags"
        panel_size="1"
        panel_ratio="100"
        panel_mode="1"
@@ -825,8 +840,8 @@
        panel_border="0"
        x="0"
        y="0"
-       w="243"
-       h="209"
+       w="80"
+       h="580"
        visible="0"
        state="2"
        placement="1" />
@@ -834,8 +849,8 @@
        placement="1"
        state="2"
        visible="0"
-       h="580"
-       w="80"
+       h="294"
+       w="358"
        y="0"
        x="0"
        panel_border="0"
@@ -843,21 +858,7 @@
        panel_mode="1"
        panel_ratio="100"
        panel_size="1"
-       id="tags" />
-    <group
-       id="glyphs"
-       panel_size="1"
-       panel_ratio="100"
-       panel_mode="1"
-       panel_wrap="0"
-       panel_border="0"
-       x="0"
-       y="0"
-       w="774"
-       h="563"
-       visible="0"
-       state="2"
-       placement="1" />
+       id="glyphs" />
   </group>
   <group
      id="printing">
@@ -1154,12 +1155,12 @@
      org.inkscape.output.pdf.cairorenderer.textToPath="embed" />
   <group
      id="desktop"
-     style="line-height:1.25;fill:#008071;-inkscape-font-specification:'Liberation Sans';font-family:'Liberation Sans';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal;font-size:53.33333333px;fill-opacity:0.99444443;text-anchor:middle;text-align:center;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0.1;stroke-miterlimit:4;stroke-dasharray:none">
+     style="line-height:1.25;fill:#0c0000;-inkscape-font-specification:'Trebuchet MS Bold';font-family:'Trebuchet MS';font-weight:bold;font-style:normal;font-stretch:normal;font-variant:normal;font-size:16.4px;fill-opacity:1;text-anchor:start;text-align:start;opacity:1;stroke:none;stroke-opacity:1;stroke-width:0.57070866;stroke-miterlimit:4;stroke-dasharray:none;text-orientation:auto;writing-mode:lr;font-variant-ligatures:normal;font-variant-caps:small-caps;font-variant-numeric:normal;font-feature-settings:normal">
     <group
-       width="770"
-       height="480"
-       x="0"
-       y="0"
+       width="450"
+       height="427"
+       x="733"
+       y="495"
        fullscreen="0"
        id="geometry"
        maximized="1" />
@@ -1262,19 +1263,19 @@
   <group
      id="metadata">
     <group
-       contributor=""
-       description=""
-       coverage=""
-       subject=""
-       language=""
-       relation=""
-       source="https://dryicons.com/icon/rounded-database-server-icon-9795"
-       identifier=""
-       publisher=""
-       rights=""
-       creator=""
-       date=""
+       id="rdf"
        title="database-server1-flat"
-       id="rdf" />
+       date=""
+       creator=""
+       rights=""
+       publisher=""
+       identifier=""
+       source="https://dryicons.com/icon/rounded-database-server-icon-9795"
+       relation=""
+       language=""
+       subject=""
+       coverage=""
+       description=""
+       contributor="" />
   </group>
 </inkscape>
